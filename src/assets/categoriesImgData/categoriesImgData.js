@@ -1,4 +1,10 @@
 export const categoriesImgData = {
+  beauty: "/images/products/beauty.png",
+  tablets: "/images/products/tablets.png",
+  vehicle: "/images/products/vehicle.png",
+  "mobile-accessories": "/images/products/mobile-accessories.png",
+  "kitchen-accessories": "/images/products/kitchen-accessories.png",
+  "sports-accessories": "/images/products/sports-accessories.png",
   smartphones: "/images/products/smartphones2.jpeg",
   laptops: "/images/products/laptops.png",
   fragrances: "/images/products/fragrance.jpeg",

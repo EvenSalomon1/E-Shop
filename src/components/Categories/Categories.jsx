@@ -31,14 +31,14 @@ const Categories = () => {
               to="/search"
               key={index}
               onClick={() => {
-                setCatVal(item);
+                setCatVal(item.slug);
                 setUserInput("");
               }}
             >
               <div>
                 {/* passende Images aus eigenem Array in categoriesImgData */}
-                <img src={categoriesImgData[item]} alt="" />
-                <p>{item.replace("-", " ")}</p>
+                <img src={categoriesImgData[item.slug]} alt="" />
+                <p>{item.name.replace("-", " ")}</p>
               </div>
             </Link>
           ))
